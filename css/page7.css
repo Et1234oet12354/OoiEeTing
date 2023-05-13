@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+    background-color: #dcaaab;
+}
+
+header {
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #e3bfbf;
+}
+
+header img {
+    height: 45px;
+    margin-top: 2.5px;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li a {
+    color: #9c4d49;
+    padding-left: 45px;
+}
+
+
+/*  */
+
+.box1 {
+    width: 700px;
+    height: 750px;
+    background-image: url(../img/mushroom\ 6.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.box1 ul {
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-top: 400px;
+}
+
+.box1 img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.box1 ul span {
+    font-family: 'GFS Didot';
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}

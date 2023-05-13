@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    /* width: 100vw; */
+    /* overflow: hidden; */
+    background-color: #e9a9a9;
+}
+
+.centent {
+    width: 900px;
+    margin: 0 auto;
+    height: 1000px;
+    background: url(../img/mushroom4.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+header{
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #e3bfbf   ;
+}
+header img{
+    height: 45px;
+    margin-top: 2.5px;
+}
+header ul li{
+    float: left;
+}
+header ul{
+    float: right;
+}
+header ul li a{
+    color: #9c4d49;
+    padding-left: 45px;
+}
+
+/*  */
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #e3bfbf;
+
+}
+footer img{
+    display: block;
+    height: 45px;
+    margin-top: 2.5px;
+}
+/*  */
+.boxs{
+    margin-top: 450px;
+    width: 400px;
+    /* background-color: #9c4d49; */
+    padding: 20px 0;
+}
+.boxs a{
+    color: #fff;
+    background-color: #dba897;
+    padding: 5px 30px;
+    margin-top: 30px;
+    display:inline-block;
+    width: 80px;
+    text-align: center;
+}
+.item1{
+    display: flex;
+}
+.item1>div{
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item1>div span{
+    font-size: 30px;
+    color: #dd5c34;
+}
+.item1>img{
+    width: 200px;
+    margin-right: 50px;
+}
+.item2{
+    margin-top: 30px;
+    display: flex;
+}
+.item2>img{
+    width: 100px;
+    margin-left: 80px;
+}
+.item2>div{
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item2>div span{
+    font-size: 30px;
+    color: #dd5c34;
+}
+.item3{
+    margin-top: 30px;
+}
+.item3>img{
+    width: 100px;
+    margin-right: 120px;
+}

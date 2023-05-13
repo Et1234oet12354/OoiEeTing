@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+    background-color: #dcaaab;
+}
+
+header {
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #e3bfbf;
+}
+
+header img {
+    height: 45px;
+    margin-top: 2.5px;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li a {
+    color: #9c4d49;
+    padding-left: 45px;
+}
+
+
+/*  */
+
+.box1 {
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    margin-top: 30px;
+}
+
+.box1 img {
+    width: 70%;
+    height: 100%;
+}
+
+
+/*  */
+
+.box2 {
+    margin: 30px auto;
+    /* text-align: center; */
+    width: 90%;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #f1ddde;
+    padding-top: 30px;
+}
+
+.box2 span {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+
+/*  */
+
+.box3 {
+    width: 100%;
+    height: 500px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.box3 .l {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.box3 .l img {
+    width: 100%;
+    height: 100%;
+}
+
+.box3 .r {
+    float: right;
+    width: 40%;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+.box3 .r span {
+    font-size: 50px;
+    color: #9c4d49;
+}
+
+
+/*  */
+
+.box4 {
+    width: 100%;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.box4 img {
+    width: 49%;
+    height: 100%;
+}
+
+
+/*  */
+
+.box5 {
+    margin: 0 auto;
+    width: 80%;
+    height: 250px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.box5 span {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+}
+
+
+/*  */
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #e3bfbf;
+}
+
+footer img {
+    display: block;
+    height: 45px;
+    margin-top: 2.5px;
+}
